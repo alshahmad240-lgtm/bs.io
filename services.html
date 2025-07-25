@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services – Glow & Glamour Salon</title>
+   
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+        font-family: 'Lato', sans-serif;
+        transition: background-color 0.3s ease, color 0.3s ease;
+        background-image: url('ae6d92ce5560857608c187c26697b0ce~tplv-tiktokx-cropcenter_1080_1080.jpeg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Playfair Display', serif;
+        }
+        
+        .bg-primary-pink { background-color: #f8c0d3; } 
+        .text-primary-pink { color: #f8c0d3; }
+        .bg-secondary-purple { background-color: #8a2be2; } 
+        .text-secondary-purple { color: #8a2be2; }
+        .bg-accent-gold { background-color: #d4af37; }
+        .text-accent-gold { color: #d4af37; }
+
+       
+        html.dark {
+            background-color: #1a202c; 
+            color: #e2e8f0; 
+        }
+        html.dark .bg-white {
+            background-color: #2d3748; 
+        }
+        html.dark .text-gray-800 {
+            color: #e2e8f0;
+        }
+        html.dark .text-gray-700 {
+            color: #cbd5e0;
+        }
+        html.dark .shadow-lg {
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.5), 0 4px 6px -2px rgba(0, 0, 0, 0.25);
+        }
+        html.dark .service-detail-card {
+            background-color: #2d3748;
+            border-color: #4a5568;
+        }
+        html.dark .footer-bg {
+            background-color: #1a202c;
+        }
+        .section {
+            background-color: rgba(255, 255, 255, 0.9); 
+        }
+        html.dark .section {
+            background-color: rgba(45, 55, 72, 0.9); 
+        }
+    </style>
+    <link rel="icon" type="image/jpg" href="c:\Users\alsha\OneDrive\Desktop\Beauty salon\codes\ae6d92ce5560857608c187c26697b0ce~tplv-tiktokx-cropcenter_1080_1080.jpeg">
+</head>
+<body class="bg-gray-50 text-gray-800 antialiased">
+
+   
+    <header class="bg-white shadow-lg py-4 px-6 flex flex-col md:flex-row justify-between items-center sticky top-0 z-50 rounded-b-lg">
+       
+         <h1><div class="text-5xl md:text-6xl font-extrabold mb-4 leading-tight" style="color: #8a2be2;">lav beauty salon</div></h1>
+
+      
+        <nav class="flex flex-wrap justify-center md:justify-end gap-x-6 gap-y-2 text-lg">
+            <a href="index.html" class="text-gray-700 hover:text-primary-pink transition duration-300 rounded-md p-2">Home</a>
+            <a href="services.html" class="text-gray-700 hover:text-primary-pink transition duration-300 rounded-md p-2">Services</a>
+            <a href="gallery.html" class="text-gray-700 hover:text-primary-pink transition duration-300 rounded-md p-2">Gallery</a>
+            <a href="team.html" class="text-gray-700 hover:text-primary-pink transition duration-300 rounded-md p-2">Team</a>
+            <a href="contact.html" class="text-gray-700 hover:text-primary-pink transition duration-300 rounded-md p-2">Contact</a>
+            <a href="book.html" class="bg-secondary-purple text-white hover:bg-primary-pink font-semibold py-2 px-4 rounded-full shadow-md transition duration-300 transform hover:scale-105">Book Now</a>
+        </nav>
+
+        <!-- Dark Mode Toggle Button -->
+        <button id="darkModeToggle" class="btn bg-gray-200 text-gray-700 hover:bg-gray-300 dark:bg-gray-700 dark:text-white dark:hover:bg-gray-600 font-semibold py-2 px-4 rounded-full shadow-sm transition duration-300 mt-4 md:mt-0 md:ml-6">
+            🌓 Toggle Dark Mode
+        </button>
+    </header>
+
+    
+    <section class="section py-16 px-4 rounded-lg shadow-md mx-auto my-8 max-w-6xl text-gray-700">
+        <h2 class="text-4xl font-bold text-center text-gray-800 mb-12">Our Full Range of Services</h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+           
+            <div class="service-detail-card bg-gray-100 p-6 rounded-xl shadow-lg border border-gray-200">
+                <img src="c:\Users\alsha\OneDrive\Desktop\Beauty salon\codes\Screenshot 2025-07-25 024856.png" alt="Hair Styling" class="w-full h-48 object-cover rounded-lg mb-4">
+                <h3 class="text-2xl font-semibold text-gray-800 mb-3">Hair Styling & Cuts</h3>
+                <p class="mb-4">Our expert stylists offer a range of hair services, from precision cuts to vibrant coloring and elegant updos.</p>
+                <ul class="list-disc list-inside space-y-2 text-md">
+                    <li>Women's Haircut: $60+</li>
+                    <li>Men's Haircut: $40+</li>
+                    <li>Coloring (Full/Partial): $100+ / $75+</li>
+                    <li>Highlights/Balayage: $120+</li>
+                    <li>Blowout/Styling: $45+</li>
+                    <li>Updo/Special Occasion: $80+</li>
+                </ul>
+            </div>
+
+          
+            <div class="service-detail-card bg-gray-100 p-6 rounded-xl shadow-lg border border-gray-200">
+                <img src="c:\Users\alsha\OneDrive\Desktop\Beauty salon\codes\Screenshot 2025-07-25 022831.png" alt="Nail Care" class="w-full h-48 object-cover rounded-lg mb-4">
+                <h3 class="text-2xl font-semibold text-gray-800 mb-3">Manicure & Pedicure</h3>
+                <p class="mb-4">Indulge in our luxurious nail care treatments for perfectly polished hands and feet.</p>
+                <ul class="list-disc list-inside space-y-2 text-md">
+                    <li>Classic Manicure: $30</li>
+                    <li>Gel Manicure: $45</li>
+                    <li>Spa Pedicure: $55</li>
+                    <li>Gel Pedicure: $65</li>
+                    <li>Nail Art Add-on: $5+</li>
+                </ul>
+            </div>
+
+            
+            <div class="service-detail-card bg-gray-100 p-6 rounded-xl shadow-lg border border-gray-200">
+                <img src="c:\Users\alsha\OneDrive\Desktop\Beauty salon\codes\Screenshot 2025-07-25 010623.png" alt="Facials" class="w-full h-48 object-cover rounded-lg mb-4">
+                <h3 class="text-2xl font-semibold text-gray-800 mb-3">Rejuvenating Facials</h3>
+                <p class="mb-4">Experience a personalized facial treatment designed to revitalize and nourish your skin.</p>
+                <ul class="list-disc list-inside space-y-2 text-md">
+                    <li>Signature Facial: $90</li>
+                    <li>Anti-Aging Facial: $120</li>
+                    <li>Acne Treatment Facial: $110</li>
+                    <li>Hydrating Facial: $95</li>
+                    <li>Exfoliation Add-on: $20</li>
+                </ul>
+            </div>
+
+          
+            <div class="service-detail-card bg-gray-100 p-6 rounded-xl shadow-lg border border-gray-200">
+                <img src="c:\Users\alsha\OneDrive\Desktop\Beauty salon\codes\Screenshot 2025-07-25 023051.png" alt="Makeup" class="w-full h-48 object-cover rounded-lg mb-4">
+                <h3 class="text-2xl font-semibold text-gray-800 mb-3">Professional Makeup</h3>
+                <p class="mb-4">Look your best for any event with our professional makeup application services.</p>
+                <ul class="list-disc list-inside space-y-2 text-md">
+                    <li>Full Face Application: $85</li>
+                    <li>Bridal Makeup: $150+</li>
+                    <li>Evening/Event Makeup: $95</li>
+                    <li>Lash Application: $20</li>
+                </ul>
+            </div>
+
+            
+            <div class="service-detail-card bg-gray-100 p-6 rounded-xl shadow-lg border border-gray-200">
+                <img src="c:\Users\alsha\OneDrive\Desktop\Beauty salon\codes\Screenshot 2025-07-25 023548.png" alt="Waxing" class="w-full h-48 object-cover rounded-lg mb-4">
+                <h3 class="text-2xl font-semibold text-gray-800 mb-3">Smooth Waxing</h3>
+                <p class="mb-4">Achieve long-lasting smoothness with our gentle and effective waxing services.</p>
+                <ul class="list-disc list-inside space-y-2 text-md">
+                    <li>Eyebrow Wax: $20</li>
+                    <li>Lip/Chin Wax: $15</li>
+                    <li>Full Leg Wax: $70</li>
+                    <li>Bikini Wax: $45+</li>
+                    <li>Underarm Wax: $30</li>
+                </ul>
+            </div>
+
+          
+            <div class="service-detail-card bg-gray-100 p-6 rounded-xl shadow-lg border border-gray-200">
+                <img src="c:\Users\alsha\OneDrive\Desktop\Beauty salon\codes\Image.jpeg" alt="Massage" class="w-full h-48 object-cover rounded-lg mb-4">
+                <h3 class="text-2xl font-semibold text-gray-800 mb-3">Relaxing Massages</h3>
+                <p class="mb-4">Unwind and de-stress with our therapeutic massage therapies, tailored to your needs.</p>
+                <ul class="list-disc list-inside space-y-2 text-md">
+                    <li>Swedish Massage (60 min): $100</li>
+                    <li>Deep Tissue Massage (60 min): $120</li>
+                    <li>Hot Stone Massage (75 min): $140</li>
+                    <li>Head & Neck Massage (30 min): $60</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer-bg bg-gray-800 text-white py-8 px-4 text-center rounded-t-lg">
+        <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-left">
+            <!-- About Us -->
+            <div>
+                <h3 class="text-xl font-bold mb-4">Glow & Glamour</h3>
+                <p class="text-gray-400">
+                    Your premier destination for beauty and relaxation. We are dedicated to bringing out your best.
+                </p>
+            </div>
+            <!-- Quick Links -->
+            <div>
+                <h3 class="text-xl font-bold mb-4">Quick Links</h3>
+                <ul>
+                    <li><a href="services.html" class="hover:text-primary-pink transition duration-300">Services</a></li>
+                    <li><a href="gallery.html" class="hover:text-primary-pink transition duration-300">Gallery</a></li>
+                    <li><a href="team.html" class="hover:text-primary-pink transition duration-300">Our Team</a></li>
+                    <li><a href="contact.html" class="hover:text-primary-pink transition duration-300">Contact Us</a></li>
+                    <li><a href="book.html" class="hover:text-primary-pink transition duration-300">Book Appointment</a></li>
+                </ul>
+            </div>
+            <!-- Contact Info -->
+            <div>
+                <h3 class="text-xl font-bold mb-4">Contact Us</h3>
+                <p class="text-gray-400">
+                    📍 Remedios St. Malate, Manila, Philippines<br/>
+                    📞 09686312747<br/>
+                    ✉️ email:lavbeauty@gmail.com
+                </p>
+                <div class="flex justify-center md:justify-start space-x-4 mt-6">
+                    <a href="https://www.facebook.com/profile.php?id=61563828740055" class="text-white hover:text-primary-pink transition duration-300 text-2xl"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/lavbeautysalon?igsh=ZHNlYnI3OWNyY3Iz" class="text-white hover:text-primary-pink transition duration-300 text-2xl"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.tiktok.com/@lavbeautysalon?_t=ZS-8y80d7u8BiJ&_r=1" target="_blank" class="text-white hover:text-primary-pink transition duration-300 text-2xl"><i class="fab fa-tiktok"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="border-t border-gray-700 mt-8 pt-6 text-sm text-gray-400">
+            <p>&copy; address: 2/F RVA Bldg. Remedios St. Malate, Manila, Philippines</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript for Dark Mode Toggle -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const darkModeToggle = document.getElementById('darkModeToggle');
+            const htmlElement = document.documentElement;
+
+           
+            const currentTheme = localStorage.getItem('theme');
+            if (currentTheme === 'dark') {
+                htmlElement.classList.add('dark');
+            }
+
+            darkModeToggle.addEventListener('click', () => {
+                htmlElement.classList.toggle('dark');
+              
+                if (htmlElement.classList.contains('dark')) {
+                    localStorage.setItem('theme', 'dark');
+                } else {
+                    localStorage.setItem('theme', 'light');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
